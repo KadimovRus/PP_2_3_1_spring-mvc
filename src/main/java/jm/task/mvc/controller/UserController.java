@@ -4,6 +4,7 @@ import jm.task.mvc.model.User;
 import jm.task.mvc.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 import java.util.List;
@@ -21,11 +22,10 @@ public class UserController {
     }
 
     @RequestMapping
-    public ModelAndView index() {
-        ModelAndView modelAndView = new ModelAndView("/users/index");
-        List<User> userList = userService.listAll();
-        modelAndView.addObject("userList", userList);
-        return modelAndView;
+    public String index(Model model) {
+        List<User> users = userService.listAll();
+        model.addAttribute("users", users);
+        return "users/index";
     }
 
     @RequestMapping("/add")

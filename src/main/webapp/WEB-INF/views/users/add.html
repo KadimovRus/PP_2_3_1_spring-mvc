@@ -1,21 +1,44 @@
 <!DOCTYPE html>
-<html lang="en" xmls:th="http://thymeleaf.org" xmlns:xmls="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>New user</title>
 </head>
 <body>
-<form th:method="POST" th:action="@{/users}" th:object="${user}">
-    <label for="name">Name: </label>
-    <input type="text" th:field="*{name}" id="name"/>
+
+<form th:method="POST" th:action="@{save}" th:object="${user}">
+    <table>
+        <tr>
+            <td>
+                <label for="name">Name: </label>
+            </td>
+            <td>
+                <input type="text" th:field="*{name}" id="name"/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="name">Lastname: </label>
+            </td>
+            <td>
+                <input type="text" th:field="*{lastName}" id="lastName"/>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="age">age: </label>
+            </td>
+            <td>
+                <input type="text" th:field="*{age}" id="age"/>
+            </td>
+        </tr>
+    </table>
+
+
     <br/>
-    <label for="lastName">Last name: </label>
-    <input type="text" th:field="*{lastName}" id="lastName"/>
-    <br/>
-    <label for="age">Age: </label>
-    <input type="text" th:field="*{age}" id="age"/>
-    <br/>
-    <input type="submit" value="Add"/>
+    <input type="submit" value="Save"/>
 </form>
+
 </body>
 </html>
