@@ -22,10 +22,7 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public User getUserById(Long id) {
-        return entityManager.createQuery("select u from User u where u.id = :id", User.class)
-                .setParameter("id", id)
-                .getResultList()
-                .stream().findAny().orElse(null);
+        return entityManager.find(User.class, id);
     }
 
     @Override

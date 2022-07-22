@@ -21,21 +21,21 @@ public class UserController {
         this.userService = userService;
     }
 
-    @RequestMapping
+    @GetMapping
     public String index(Model model) {
         List<User> users = userService.listAll();
         model.addAttribute("users", users);
         return "users/index";
     }
 
-    @RequestMapping("/add")
+    @GetMapping("/add")
     public String newUser(Map<String, Object> model) {
         User user = new User();
         model.put("user", user);
         return "/users/add";
     }
 
-    @RequestMapping("/edit")
+    @GetMapping("/edit")
     public ModelAndView editCustomerForm(@RequestParam long id) {
         ModelAndView mav = new ModelAndView("/users/edit_user");
         User user = userService.getUserById(id);
@@ -43,19 +43,19 @@ public class UserController {
         return mav;
     }
 
-    @RequestMapping(value = "/save", method = RequestMethod.POST)
+    @PostMapping( "/save")
     public String saveUser(@ModelAttribute("user") User user) {
         userService.addUser(user);
         return "redirect:/users";
     }
 
-    @RequestMapping(value = "/update", method = RequestMethod.POST)
+    @PostMapping("/update")
     public String updateUser(@ModelAttribute("user") User user) {
         userService.editUser(user);
         return "redirect:/users";
     }
 
-    @RequestMapping("/delete")
+    @GetMapping("/delete")
     public String deleteUserForm(@RequestParam long id) {
         userService.deleteUser(id);
         return "redirect:/users";

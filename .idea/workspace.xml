@@ -9,17 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dd485ef-88ba-4c6b-aa40-0cad8dcd2f76" name="Changes" comment="version 1.1">
+    <list default="true" id="2dd485ef-88ba-4c6b-aa40-0cad8dcd2f76" name="Changes" comment="version 1.2">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/mvc/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/mvc/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/mvc/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/mvc/config/WebConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/mvc/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/mvc/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users/add.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users/edit_user.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users/edit_user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/mvc/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/mvc/dao/UserDaoImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,12 +70,12 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/IdeaProjects/PP_2_3_1_spring-mvc/src/main/webapp/WEB-INF/views/users&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programming/Java/springbootdemo&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.haulmont.jpb.reverseEngineering&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;PVS-Studio.Settings&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;55550f5eb3d1963ee2a82e39b98ccafe&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -195,7 +189,9 @@
       <workItem from="1658213773529" duration="14772000" />
       <workItem from="1658285173410" duration="14027000" />
       <workItem from="1658370747797" duration="13526000" />
-      <workItem from="1658401037688" duration="2565000" />
+      <workItem from="1658401037688" duration="4969000" />
+      <workItem from="1658456947168" duration="447000" />
+      <workItem from="1658473503894" duration="469000" />
     </task>
     <task id="LOCAL-00001" summary="version 1.1">
       <created>1658387525548</created>
@@ -204,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658387525548</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="version 1.2">
+      <created>1658403612020</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658403612020</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +226,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version 1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 1.1" />
+    <MESSAGE value="version 1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -235,7 +239,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/jm/task/mvc/dao/UserDaoImpl.java</url>
-          <line>40</line>
+          <line>37</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
