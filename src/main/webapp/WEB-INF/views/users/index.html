@@ -19,8 +19,8 @@ Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
             <td th:text="${user.name}"></td>
             <td th:text="${user.lastName}"></td>
             <td th:text="${user.age}"></td>
-            <td><a th:href="@{/users/edit?id={id}(id=${user.id})}">Edit</a></td>
-            <td><a th:href="@{/users/delete?id={id}(id=${user.id})}">Delete</a></td>
+            <td><form th:action="@{/users/{id}/edit(id=${user.id})}"><input type="submit" value="Edit"/></form></td>
+            <td><form th:method="DELETE" th:action="@{/users/{id}(id=${user.id})}"><input type="submit" value="Delete"/></form></td>
         <tr>
     </table>
 

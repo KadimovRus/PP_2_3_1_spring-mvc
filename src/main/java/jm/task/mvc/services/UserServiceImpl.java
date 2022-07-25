@@ -25,8 +25,8 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public void editUser(User user) {
-        userService.editUser(user);
+    public void editUser(long id, User user) {
+        userService.editUser(id, user);
     }
 
     @Override

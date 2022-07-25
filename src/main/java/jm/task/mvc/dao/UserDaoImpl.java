@@ -27,7 +27,11 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     @Transactional
-    public void editUser(User user) {
+    public void editUser(long id, User user) {
+        User userForUpdate = getUserById(id);
+        userForUpdate.setName(user.getName());
+        userForUpdate.setLastName(user.getLastName());
+        userForUpdate.setAge(user.getAge());
         entityManager.merge(user);
     }
 

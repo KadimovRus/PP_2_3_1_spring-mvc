@@ -9,11 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2dd485ef-88ba-4c6b-aa40-0cad8dcd2f76" name="Changes" comment="version 1.2">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2dd485ef-88ba-4c6b-aa40-0cad8dcd2f76" name="Changes" comment="version 1.3">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/mvc/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/mvc/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/mvc/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/mvc/dao/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/mvc/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/mvc/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/mvc/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/mvc/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jm/task/mvc/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jm/task/mvc/services/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users/edit_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users/edit_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/users/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +196,9 @@
       <workItem from="1658370747797" duration="13526000" />
       <workItem from="1658401037688" duration="4969000" />
       <workItem from="1658456947168" duration="447000" />
-      <workItem from="1658473503894" duration="469000" />
+      <workItem from="1658473503894" duration="1313000" />
+      <workItem from="1658549039537" duration="1870000" />
+      <workItem from="1658745258382" duration="4986000" />
     </task>
     <task id="LOCAL-00001" summary="version 1.1">
       <created>1658387525548</created>
@@ -207,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658403612020</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="version 1.3">
+      <created>1658474178203</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658474178203</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +241,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version 1.1" />
     <MESSAGE value="version 1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 1.2" />
+    <MESSAGE value="version 1.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1.3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -239,7 +254,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/jm/task/mvc/dao/UserDaoImpl.java</url>
-          <line>37</line>
+          <line>41</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
